@@ -19,7 +19,7 @@ BeforeAll(async () => {
 
 Given(/^I signup with (.*), (.*) and (.*)$/, async function (username, email, password) {
   console.log('going inside');
-  await driver.findElement(By.linkText("Login2")).click();
+  await driver.findElement(By.linkText("Login")).click();
   await driver.sleep(5000);
 
 });
